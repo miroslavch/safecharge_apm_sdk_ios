@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>merchantUniqueID</key>
+	<string>TEST</string>
+	<key>PPPRequestVersion</key>
+	<string>3.0.0</string>
+	<key>WhitdrawRequestVersion</key>
+	<string>3.0.0</string>
+	<key>SCHSafeChargePPPServerURL</key>
+	<string>https://apmtest.gate2shop.com/ppp/purchase.do</string>
+	<key>SCHSafeChargeWithdrawServerURL</key>
+	<string>https://secure.safecharge.com/ppp/withdrawal/withdraw.do</string>
+	<key>SecretKey</key>
+	<string>MYucL4VSjQYenYhvRj9ZT4ULppE4Xb2M1AIoU0O5FjVNvz883Ko3C18UnKWc5bja</string>
+	<key>MerchantId</key>
+	<string>3036843617985409462</string>
+	<key>MerchantSiteID</key>
+	<string>118706</string>
+	<key>UserTokenId</key>
+	<string>Test_2</string>
+	<key>PaymentCheckSumMethod</key>
+	<string>MD5</string>
+	<key>WhitdrawCheckSumMethod</key>
+	<string>MD5</string>
+</dict>
+</plist>

@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A7A2E331A948FC4007EF366 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2A7A2E341A948FC5007EF366 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				2A7A2E391A94900E007EF366 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				2A7A2E381A948FFA007EF366 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2A7A2DB51A9388AC007EF366 /* libSafechargePP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7A2DA91A9388AC007EF366 /* libSafechargePP.a */; };
+		2A7A2E291A93995F007EF366 /* SafechargePP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A7A2DAC1A9388AC007EF366 /* SafechargePP.h */; };
+		3395762720110820007FF77A /* SCHPlaytechRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3395762620110820007FF77A /* SCHPlaytechRequestParser.m */; };
+		339576282011090D007FF77A /* SCHPlaytechRequestParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3395762520110820007FF77A /* SCHPlaytechRequestParser.h */; };
+		33AD5D9E1EDC771C00B9F6E4 /* UrlRequestParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD5D9D1EDC771C00B9F6E4 /* UrlRequestParser.m */; };
+		33AD5D9F1EDD5F6100B9F6E4 /* SCHPlaytechRequestBuilder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33E6AA2A1EDC594400D022B3 /* SCHPlaytechRequestBuilder.h */; };
+		33AD5DA31EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD5DA21EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.m */; };
+		33AD5DA81EDDC07400B9F6E4 /* SCHPlaytechResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AD5DA71EDDC07400B9F6E4 /* SCHPlaytechResult.m */; };
+		33AD5DA91EDDC1A400B9F6E4 /* SCHPlaytechPaymentViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33AD5DA11EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.h */; };
+		33AD5DAA1EDDC1A400B9F6E4 /* SCHPlaytechPaymentProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33AD5DA51EDDC01400B9F6E4 /* SCHPlaytechPaymentProtocol.h */; };
+		33AD5DAB1EDDC1A400B9F6E4 /* SCHPlaytechResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33AD5DA61EDDC07400B9F6E4 /* SCHPlaytechResult.h */; };
+		33E3FACB1E4B5D34006F592A /* SCHValidatable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33F9EAE81E3FA3CD0009FD5B /* SCHValidatable.h */; };
+		33E3FACC1E4B5D34006F592A /* RequestBuilderHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33F9EADC1E3F4EAC0009FD5B /* RequestBuilderHelper.h */; };
+		33E6AA2C1EDC594400D022B3 /* SCHPlaytechRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E6AA2B1EDC594400D022B3 /* SCHPlaytechRequestBuilder.m */; };
+		33F9EABA1E38A9F60009FD5B /* SCHJsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9EAB91E38A9F60009FD5B /* SCHJsFunction.m */; };
+		33F9EAC91E39FCBC0009FD5B /* SCHPaymentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9EAC81E39FCBC0009FD5B /* SCHPaymentData.m */; };
+		33F9EACD1E3A25600009FD5B /* SCHJsFunction.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33F9EAB81E38A9F60009FD5B /* SCHJsFunction.h */; };
+		33F9EACF1E3A25600009FD5B /* SCHPaymentData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33F9EAC71E39FCBC0009FD5B /* SCHPaymentData.h */; };
+		33F9EADE1E3F4EAC0009FD5B /* RequestBuilderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9EADD1E3F4EAC0009FD5B /* RequestBuilderHelper.m */; };
+		33F9EAEA1E3FA3CD0009FD5B /* SCHValidatable.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9EAE91E3FA3CD0009FD5B /* SCHValidatable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7A2DB61A9388AC007EF366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7A2DA11A9388AC007EF366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7A2DA81A9388AC007EF366;
+			remoteInfo = SafechargePP;
+		};
+		2A7A2E371A948FFA007EF366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7A2DA11A9388AC007EF366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7A2DA81A9388AC007EF366;
+			remoteInfo = SafechargePP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A7A2DA71A9388AC007EF366 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				339576282011090D007FF77A /* SCHPlaytechRequestParser.h in CopyFiles */,
+				33AD5DA91EDDC1A400B9F6E4 /* SCHPlaytechPaymentViewController.h in CopyFiles */,
+				33AD5DAA1EDDC1A400B9F6E4 /* SCHPlaytechPaymentProtocol.h in CopyFiles */,
+				33AD5DAB1EDDC1A400B9F6E4 /* SCHPlaytechResult.h in CopyFiles */,
+				33AD5D9F1EDD5F6100B9F6E4 /* SCHPlaytechRequestBuilder.h in CopyFiles */,
+				33E3FACB1E4B5D34006F592A /* SCHValidatable.h in CopyFiles */,
+				33E3FACC1E4B5D34006F592A /* RequestBuilderHelper.h in CopyFiles */,
+				33F9EACD1E3A25600009FD5B /* SCHJsFunction.h in CopyFiles */,
+				33F9EACF1E3A25600009FD5B /* SCHPaymentData.h in CopyFiles */,
+				2A7A2E291A93995F007EF366 /* SafechargePP.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A619B931AC1803800CC88DA /* SCHLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SCHLogging.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2A7A2DA91A9388AC007EF366 /* libSafechargePP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSafechargePP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7A2DAC1A9388AC007EF366 /* SafechargePP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SafechargePP.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2A7A2DB41A9388AC007EF366 /* SafechargePPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafechargePPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7A2DBA1A9388AC007EF366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3395762520110820007FF77A /* SCHPlaytechRequestParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHPlaytechRequestParser.h; sourceTree = "<group>"; };
+		3395762620110820007FF77A /* SCHPlaytechRequestParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHPlaytechRequestParser.m; sourceTree = "<group>"; };
+		33AD5D9C1EDC771C00B9F6E4 /* UrlRequestParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlRequestParser.h; sourceTree = "<group>"; };
+		33AD5D9D1EDC771C00B9F6E4 /* UrlRequestParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlRequestParser.m; sourceTree = "<group>"; };
+		33AD5DA11EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHPlaytechPaymentViewController.h; sourceTree = "<group>"; };
+		33AD5DA21EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHPlaytechPaymentViewController.m; sourceTree = "<group>"; };
+		33AD5DA41EDDBBBD00B9F6E4 /* SCHPlaytechConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHPlaytechConstants.h; sourceTree = "<group>"; };
+		33AD5DA51EDDC01400B9F6E4 /* SCHPlaytechPaymentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHPlaytechPaymentProtocol.h; sourceTree = "<group>"; };
+		33AD5DA61EDDC07400B9F6E4 /* SCHPlaytechResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHPlaytechResult.h; sourceTree = "<group>"; };
+		33AD5DA71EDDC07400B9F6E4 /* SCHPlaytechResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHPlaytechResult.m; sourceTree = "<group>"; };
+		33E6AA2A1EDC594400D022B3 /* SCHPlaytechRequestBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHPlaytechRequestBuilder.h; sourceTree = "<group>"; };
+		33E6AA2B1EDC594400D022B3 /* SCHPlaytechRequestBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHPlaytechRequestBuilder.m; sourceTree = "<group>"; };
+		33F9EAB81E38A9F60009FD5B /* SCHJsFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHJsFunction.h; sourceTree = "<group>"; };
+		33F9EAB91E38A9F60009FD5B /* SCHJsFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHJsFunction.m; sourceTree = "<group>"; };
+		33F9EAC71E39FCBC0009FD5B /* SCHPaymentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHPaymentData.h; sourceTree = "<group>"; };
+		33F9EAC81E39FCBC0009FD5B /* SCHPaymentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHPaymentData.m; sourceTree = "<group>"; };
+		33F9EADC1E3F4EAC0009FD5B /* RequestBuilderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestBuilderHelper.h; sourceTree = "<group>"; };
+		33F9EADD1E3F4EAC0009FD5B /* RequestBuilderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestBuilderHelper.m; sourceTree = "<group>"; };
+		33F9EAE81E3FA3CD0009FD5B /* SCHValidatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCHValidatable.h; sourceTree = "<group>"; };
+		33F9EAE91E3FA3CD0009FD5B /* SCHValidatable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCHValidatable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7A2DA61A9388AC007EF366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7A2DB11A9388AC007EF366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7A2DB51A9388AC007EF366 /* libSafechargePP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7A2DA01A9388AC007EF366 = {
+			isa = PBXGroup;
+			children = (
+				2A7A2DAB1A9388AC007EF366 /* SafechargePP */,
+				2A7A2DB81A9388AC007EF366 /* SafechargePPTests */,
+				2A7A2DAA1A9388AC007EF366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7A2DAA1A9388AC007EF366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A2DA91A9388AC007EF366 /* libSafechargePP.a */,
+				2A7A2DB41A9388AC007EF366 /* SafechargePPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7A2DAB1A9388AC007EF366 /* SafechargePP */ = {
+			isa = PBXGroup;
+			children = (
+				33F9EAC31E39FBFE0009FD5B /* Classes */,
+				2A7A2DAC1A9388AC007EF366 /* SafechargePP.h */,
+			);
+			path = SafechargePP;
+			sourceTree = "<group>";
+		};
+		2A7A2DB81A9388AC007EF366 /* SafechargePPTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A2DB91A9388AC007EF366 /* Supporting Files */,
+			);
+			path = SafechargePPTests;
+			sourceTree = "<group>";
+		};
+		2A7A2DB91A9388AC007EF366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A2DBA1A9388AC007EF366 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33D004461E436CCD00E8A1E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2A619B931AC1803800CC88DA /* SCHLogging.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		33E6AA291EDC587B00D022B3 /* Playtech */ = {
+			isa = PBXGroup;
+			children = (
+				33E6AA2A1EDC594400D022B3 /* SCHPlaytechRequestBuilder.h */,
+				33E6AA2B1EDC594400D022B3 /* SCHPlaytechRequestBuilder.m */,
+				33AD5DA11EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.h */,
+				33AD5DA21EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.m */,
+				33AD5DA41EDDBBBD00B9F6E4 /* SCHPlaytechConstants.h */,
+				33AD5DA51EDDC01400B9F6E4 /* SCHPlaytechPaymentProtocol.h */,
+				33AD5DA61EDDC07400B9F6E4 /* SCHPlaytechResult.h */,
+				33AD5DA71EDDC07400B9F6E4 /* SCHPlaytechResult.m */,
+				3395762520110820007FF77A /* SCHPlaytechRequestParser.h */,
+				3395762620110820007FF77A /* SCHPlaytechRequestParser.m */,
+			);
+			name = Playtech;
+			sourceTree = "<group>";
+		};
+		33F9EAC31E39FBFE0009FD5B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				33E6AA291EDC587B00D022B3 /* Playtech */,
+				33D004461E436CCD00E8A1E8 /* Common */,
+				33F9EAEF1E41E37C0009FD5B /* WebViewHelpers */,
+				33F9EAD41E3B7DC50009FD5B /* Utils */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		33F9EAD41E3B7DC50009FD5B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33F9EAD51E3B7DCA0009FD5B /* BaseValidation */,
+				33F9EADC1E3F4EAC0009FD5B /* RequestBuilderHelper.h */,
+				33F9EADD1E3F4EAC0009FD5B /* RequestBuilderHelper.m */,
+				33AD5D9C1EDC771C00B9F6E4 /* UrlRequestParser.h */,
+				33AD5D9D1EDC771C00B9F6E4 /* UrlRequestParser.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		33F9EAD51E3B7DCA0009FD5B /* BaseValidation */ = {
+			isa = PBXGroup;
+			children = (
+				33F9EAE81E3FA3CD0009FD5B /* SCHValidatable.h */,
+				33F9EAE91E3FA3CD0009FD5B /* SCHValidatable.m */,
+			);
+			name = BaseValidation;
+			sourceTree = "<group>";
+		};
+		33F9EAEF1E41E37C0009FD5B /* WebViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				33F9EAB81E38A9F60009FD5B /* SCHJsFunction.h */,
+				33F9EAB91E38A9F60009FD5B /* SCHJsFunction.m */,
+				33F9EAC71E39FCBC0009FD5B /* SCHPaymentData.h */,
+				33F9EAC81E39FCBC0009FD5B /* SCHPaymentData.m */,
+			);
+			name = WebViewHelpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A7A2DA81A9388AC007EF366 /* SafechargePP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7A2DBD1A9388AC007EF366 /* Build configuration list for PBXNativeTarget "SafechargePP" */;
+			buildPhases = (
+				2A7A2DA51A9388AC007EF366 /* Sources */,
+				2A7A2DA61A9388AC007EF366 /* Frameworks */,
+				2A7A2DA71A9388AC007EF366 /* CopyFiles */,
+				2A7A2E321A948977007EF366 /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafechargePP;
+			productName = SafechargePP;
+			productReference = 2A7A2DA91A9388AC007EF366 /* libSafechargePP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2A7A2DB31A9388AC007EF366 /* SafechargePPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7A2DC01A9388AC007EF366 /* Build configuration list for PBXNativeTarget "SafechargePPTests" */;
+			buildPhases = (
+				2A7A2DB01A9388AC007EF366 /* Sources */,
+				2A7A2DB11A9388AC007EF366 /* Frameworks */,
+				2A7A2DB21A9388AC007EF366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7A2DB71A9388AC007EF366 /* PBXTargetDependency */,
+			);
+			name = SafechargePPTests;
+			productName = SafechargePPTests;
+			productReference = 2A7A2DB41A9388AC007EF366 /* SafechargePPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7A2DA11A9388AC007EF366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SafeCharge;
+				TargetAttributes = {
+					2A7A2DA81A9388AC007EF366 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2A7A2DB31A9388AC007EF366 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2A7A2E331A948FC4007EF366 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A7A2DA41A9388AC007EF366 /* Build configuration list for PBXProject "SafechargePP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A7A2DA01A9388AC007EF366;
+			productRefGroup = 2A7A2DAA1A9388AC007EF366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7A2DA81A9388AC007EF366 /* SafechargePP */,
+				2A7A2DB31A9388AC007EF366 /* SafechargePPTests */,
+				2A7A2E331A948FC4007EF366 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A7A2DB21A9388AC007EF366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A7A2E321A948977007EF366 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\necho \"---------------\"\necho \"current action - ${ACTION}\"\necho \"---------------\"\n\nARCHIVE_MODE_VALUE_YES=\"install\"\nARCHIVE_MODE=${ACTION}\nif [ \"${ARCHIVE_MODE}\" == \"${ARCHIVE_MODE_VALUE_YES}\" ]; then\necho \"archive mode skipping\"\nexit 0\nfi\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n";
+		};
+		2A7A2E391A94900E007EF366 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\n\nfunction build_static_library\n{\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library\n{\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\n    RW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\n    RW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\n    RW_OTHER_PLATFORM=iphonesimulator\nelse\n    RW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\n    RW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find other platform build directory.\"\n    exit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n    \"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n    \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7A2DA51A9388AC007EF366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E6AA2C1EDC594400D022B3 /* SCHPlaytechRequestBuilder.m in Sources */,
+				33F9EADE1E3F4EAC0009FD5B /* RequestBuilderHelper.m in Sources */,
+				33F9EAEA1E3FA3CD0009FD5B /* SCHValidatable.m in Sources */,
+				33AD5DA81EDDC07400B9F6E4 /* SCHPlaytechResult.m in Sources */,
+				3395762720110820007FF77A /* SCHPlaytechRequestParser.m in Sources */,
+				33F9EAC91E39FCBC0009FD5B /* SCHPaymentData.m in Sources */,
+				33AD5DA31EDDBAF900B9F6E4 /* SCHPlaytechPaymentViewController.m in Sources */,
+				33AD5D9E1EDC771C00B9F6E4 /* UrlRequestParser.m in Sources */,
+				33F9EABA1E38A9F60009FD5B /* SCHJsFunction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7A2DB01A9388AC007EF366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A7A2DB71A9388AC007EF366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7A2DA81A9388AC007EF366 /* SafechargePP */;
+			targetProxy = 2A7A2DB61A9388AC007EF366 /* PBXContainerItemProxy */;
+		};
+		2A7A2E381A948FFA007EF366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7A2DA81A9388AC007EF366 /* SafechargePP */;
+			targetProxy = 2A7A2E371A948FFA007EF366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A7A2DBB1A9388AC007EF366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A7A2DBC1A9388AC007EF366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7A2DBE1A9388AC007EF366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		2A7A2DBF1A9388AC007EF366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		2A7A2DC11A9388AC007EF366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SafechargePPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SCH.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A7A2DC21A9388AC007EF366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SafechargePPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SCH.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A7A2E351A948FC5007EF366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A7A2E361A948FC5007EF366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A7A2DA41A9388AC007EF366 /* Build configuration list for PBXProject "SafechargePP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7A2DBB1A9388AC007EF366 /* Debug */,
+				2A7A2DBC1A9388AC007EF366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7A2DBD1A9388AC007EF366 /* Build configuration list for PBXNativeTarget "SafechargePP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7A2DBE1A9388AC007EF366 /* Debug */,
+				2A7A2DBF1A9388AC007EF366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7A2DC01A9388AC007EF366 /* Build configuration list for PBXNativeTarget "SafechargePPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7A2DC11A9388AC007EF366 /* Debug */,
+				2A7A2DC21A9388AC007EF366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7A2E341A948FC5007EF366 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7A2E351A948FC5007EF366 /* Debug */,
+				2A7A2E361A948FC5007EF366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A7A2DA11A9388AC007EF366 /* Project object */;
+}
